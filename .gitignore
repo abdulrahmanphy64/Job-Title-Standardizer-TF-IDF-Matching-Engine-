@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+env/
+venv/
+
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models
+model/*.pkl
+model/*.npz
+model/*.json
+!model/.gitkeep
+
+# Logs
+logs/
+
+# OS noise
+.DS_Store
+Thumbs.db
